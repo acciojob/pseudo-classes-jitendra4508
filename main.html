@@ -1,16 +1,58 @@
 <!DOCTYPE html>
-
 <html>
-
 <head>
 	<link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
+
+	<style>
+	:root {
+      background-color: rgb(135, 206, 235);
+    }
+    article p:first-child {
+      background-color: black;
+      color: white;
+    }
+    article p:nth-child(2) {
+      color: #000;
+    }
+    article p:last-child {
+      color: red;
+    }
+    ul li {
+      background-color: gray;
+      width: 50%;
+      padding: 10px;
+    }
+    ul li:nth-child(odd) {
+      background-color: white;
+    }
+    ul li:first-child,
+    ul li:last-child {
+      font-size: 22px;
+    }
+    ul li:nth-last-child(3) {
+      background-color: pink;
+    }
+	</style>
+	
+  <article>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    <p>Alias accusamus accusantium dicta laboriosam autem.</p>
+    <p>libero praesentium eum dolorem porro quibusdam.</p>
+  </article>
+
+  <ul>
+    <li>List item 1</li>
+    <li>List item 2</li>
+    <li>List item 3</li>
+    <li>List item 4</li>
+    <li>List item 5</li>
+  </ul>
+
+	
     <script type="text/javascript" src="./script.js">
 </script>
 
 </body>
-
 </html>
